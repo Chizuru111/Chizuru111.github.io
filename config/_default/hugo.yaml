@@ -4,7 +4,11 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+# We don’t need to change the baseURL in hugo.yaml 
+# if we deploy the site to GitHub Pages (default) or Netlify
+# as the URL will be set automatically. Otherwise, change baseURL
+# to the URL of your website.
+title: Yik Yu Ng
 # Website URL
 baseURL: 'https://example.com/'
 
